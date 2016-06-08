@@ -9,17 +9,16 @@
 
 **Technologies used**
 
-> JavaScript
-> Jquery
-> Jquery Mobile
-> Jquery Mobile Router
-
-> LESS
-> CSS3
-> Materialize
-> Animate CSS
+* JavaScript
+* Jquery
+* Jquery Mobile
+* Jquery Mobile Router
+* LESS
+* CSS3
+* Materialize
+* Animate CSS
 
 [Demo] (http://dmsanchez86.github.io/jurisquizWeb/)
 
-![Screen Shoot](http://jurizquiz-dmsanchez86.c9.io/frontend/img/screen.png)
+![Screen Shoot](frontend/img/screen.png)
 
