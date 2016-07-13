@@ -37,17 +37,14 @@
                 height: 567px;
                 overflow: hidden;
                 transition: transform 1s ease;
-                transform: rotateX(0deg) translatey(0px) rotatey(0deg) scale(.4);
+                transform: rotateX(0deg) translatey(0px) rotatey(0deg) scale(1);
                 transform-origin: left top;
                 transition: all .5s ease;
             }
             .content:before{
                 position: absolute;
                 width: 100%;
-<<<<<<< HEAD
                 border: solid thin;
-=======
->>>>>>> 510ceafdbf08116b7539b655a24128bda947d75f
                 transition: height .5s .2s ease-in;
                 top: 0;
                 left: 0;
@@ -87,8 +84,8 @@
                 left: 50%;
                 top: 60px;
                 z-index: 3;
-                -webkit-animation: hammer 1.5s 2s 1 ease;
-                animation: hammer 1.5s 2s 1 ease;
+                -webkit-animation: hammer 2s 2s infinite ease;
+                animation: hammer 2s 2s infinite ease;
             }
             .content .step_2{
                 top: 230px;
@@ -205,7 +202,7 @@
         
         <script>
             window.onload = function(){
-                setInterval(function(){ location.reload(); },4200);
+                // setInterval(function(){ location.reload(); },4200);
             };
         </script>
     </body>
